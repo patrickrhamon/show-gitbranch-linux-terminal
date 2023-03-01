@@ -1,7 +1,7 @@
 # How change linux terminal to show git branch checkouted
 
-##1º - Run command in terminal: *vim ~/.bashrc [Enter]*
-##2º - Search for sentence: *"if [ "$color_prompt" = yes ]; then"* and add before *"if"* this function:
+## 1º - Run command in terminal: **vim ~/.bashrc [Enter]**
+## 2º - Search for sentence: **"if [ "$color_prompt" = yes ]; then"** and add before **"if"** this function:
 
 ```
 parse_git_branch() {
@@ -9,7 +9,7 @@ parse_git_branch() {
 }
 ```
 
-##3º - After add function, replace all validate sentence for this sentence:
+## 3º - After add function, replace all validate sentence for this sentence:
 
 ```
 if [ "$color_prompt" = yes ]; then
